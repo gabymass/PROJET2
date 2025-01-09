@@ -1,0 +1,53 @@
+
+
+commande hugo :
+
+git init
+git remote add origin "https://github.com/Kikitooo/Projet.git"
+git add main.html
+git commit -m "first commit"
+git config user.name ""
+git config user.email ""
+git push origin master
+
+git branch hugo
+git checkout hugo
+git push origin hugo
+
+nano index.html
+git add index.html
+git commit -m "index v2"
+
+nano index.html
+git add index.html 
+git commit -m "index final"
+
+mkdir html
+cd html
+nano page1.html
+git add page1.html 
+git commit -m "fraise"
+git push origin hugo
+
+ls
+git branch
+git branch hugo
+git checkout hugo
+mkdir html
+cd html/
+nano page1.html
+cd ..
+nano index.html
+git add index.html 
+git commit -m "index 1"
+
+git init
+nano fichier.txt
+git remote add origin
+git status
+git add fichier.txt
+git commit -m «premier contact»
+git config user.name «Kikitooo»
+git config user.email «hugo92220@gmail.com»
+git commit -m "first commit"
+git push -u origin master
