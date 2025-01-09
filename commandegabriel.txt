@@ -1,0 +1,52 @@
+git clone https://github.com/Kikitooo/Projet.git
+git pull origin master
+git branch gabriel
+git checkout gabriel
+git branch
+git push origin gabriel
+mkdir css
+cd css
+touch style.css
+git add style.css
+git commit -m "style.css"
+git push origin gabriel
+mkdir html
+cd html
+touch page1.html
+git add page1.html
+git commit -m "page1"
+git push origin gabriel
+cd ..
+cd css
+nano style.css
+git add style.css
+git commit -m "stylev1"
+git push origin gabriel
+nano style.css
+git add style.css
+git commit -m "stylev2"
+git push origin gabriel
+git pull origin yani
+git pull origin hugo
+nano style.css
+git add style.css
+git commit -m "stylev3"
+git push origin gabriel
+mkdir GITPROJ
+cd GITPROJ/
+git init
+nano fichier.txt
+git remote add origin
+git status
+git add fichier.txt
+git commit -m «premier contact»
+git config user.name «gabmass»
+git config user.email «gabriel-masson@orange.fr»
+git commit -m «premier contact »
+git push -u origin master
+git merge gabriel
+git merge hugo
+git merge yani 
+git pull gabriel
+git pull hugo
+git pull yani
