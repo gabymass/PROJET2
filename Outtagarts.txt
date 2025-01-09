@@ -1,0 +1,29 @@
+Commande Yani
+
+git pull origin master
+git branch yani
+git checkout yani
+git push origin yani
+git checkout gabriel
+nano fichier.tct
+git add fichier.tct
+git commit -m "1er fichier"
+git push origin gabriel
+got pull origin hugo
+git branch
+git branch hugo
+git branch -d hugo
+git checkout yani
+mkdir js
+cd js
+touch menu.js
+nano menu.js
+git add menu.js
+git commit -m menu.js
+git push origin yani
+cd js
+touch light.js
+nano light.js
+git add light.js
+git commit -m menu.js
+git push origin yani
